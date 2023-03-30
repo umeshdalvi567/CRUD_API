@@ -1,0 +1,9 @@
+<div>
+    <h1>********search  Player ******</h1>
+    <form #search="ngForm" (ngSubmit)="searchData(search)">
+        <input type="text" name="id" id="id" ngModel="id">
+        <p> {{players.id}}</p>
+        <p> {{players.name}}</p>
+        <input type="submit" value="submited">
+    </form>
+    </div>
